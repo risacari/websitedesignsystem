@@ -1,0 +1,74 @@
+/* Adjusting margins */
+
+body {
+    margin: 0 10%;
+}
+
+/* Creating a border to each container */
+
+.container {
+    border: 1px solid gray;
+    padding: 0 5%;
+    margin: 1% 0;
+}
+
+/* Adjusting color blocks*/
+
+.color-panel {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    width: 24%;
+    min-width: 110px;
+}
+
+.yellow-gold {
+    background-color: #F8E900;
+}
+
+.dark-green {
+    background-color: #374B35;
+    color: #fff;
+}
+
+.light-green {
+    background-color: #53664A;
+    color: #fff;
+}
+
+.green {
+    background-color: #318053;
+    color: #fff;
+}
+
+/* Adjusting fonts blocks */
+
+.font-panel {
+    display: inline-block;
+    width: 46%;
+}
+
+.font-label {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;;
+}
+
+.anek-gujarati {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 2em;
+}
+
+/* Adjusting text styles */
+
+.page-title {
+    font-size: 42px;
+}
+
+.paragraph {
+    font-size: 32px;
+}
